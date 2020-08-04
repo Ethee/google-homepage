@@ -1,0 +1,147 @@
+body{
+    display: block;
+    background: #fff;
+    font-family: arial, sans-serif;
+    color: #000;
+    font-size: small;
+    height: 100%;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: #000;
+}
+header, footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+main{
+    margin-top: 100px;
+}
+.searchbox{
+    display:flex;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+}
+.searchbar{
+    height:44px;
+    width:582px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: none;
+    text-align: center;
+}
+.searchbar:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.ibar{
+    flex-wrap: wrap;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    width: 532px;
+    border: none;
+    background: transparent;
+    padding-top: 4px;
+}
+.ibar:focus{
+    outline:none;
+}
+.buttonbox{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.buttons:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+}
+.buttons:focus{
+    outline-color: rgba(0,0,0,0.5);
+    border: thin;
+}
+.mag{
+    position: relative;
+    top: 7px;
+}
+.fbar{
+    min-width: 100vw;
+    background: #f2f2f2;
+    height: 35px;
+    bottom: 0;
+    position: fixed;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.fbar .brside{
+    float: right;
+    padding-right: 30px;
+}
+.logo{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.hbar{
+    position: fixed;
+    width: 95%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    padding-left: 10px;
+}
+.hbar .rside{
+    padding-right: 30px;
+}
+.rside{
+    float: right;
+}
+.lside{
+}
+.navmenu{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.uicon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.headicons{
+    position: fixed;
+    right: 10px;
+    top: 19px;
+}
